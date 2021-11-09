@@ -4,8 +4,8 @@
 #include <Blinker.h>
 
 char auth[] = "0f706458e00b";  //设备key
-char ssid[] = "BZTV-社会人";  //路由器wifi ssid
-char pswd[] = "12345678l";  //路由器wifi 密码
+char ssid[] = "wifi_name";  //路由器wifi ssid
+char pswd[] = "wifi_passwd";  //路由器wifi 密码
 BlinkerButton Button1("btn-abc");     //定义按钮键名
 bool oState = false;
 int counter = 0;
